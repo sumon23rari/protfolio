@@ -1,0 +1,440 @@
+/*==================extra small media css start here===============*/
+@media (max-width: 575.98px) {
+	.navbar-toggler i {
+		color: #ddd;
+		font-size: 24px;
+	}
+
+	.navbar {
+		padding: 10px 1rem;
+	}
+	.navbar-nav{
+	background: #fd6462;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-md .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.banner-text h1 {
+		font-size: 50px;
+	}
+
+	.banner-text h3 {
+		font-size: 38px;
+	}
+
+	#banner {
+		padding-top: 165px;
+		padding-bottom: 123px;
+	}
+
+	#about {
+		padding-top: 48px;
+		padding-bottom: 50px;
+	}
+
+	.heading {
+		padding-bottom: 55px;
+	}
+
+	.heading p {
+		padding-top: 63px;
+	}
+
+	.about-img {
+		margin-bottom: 25px;
+	}
+
+	#counter {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+
+	#service {
+		padding-top: 55px;
+	}
+
+	.heading h2 {
+		font-size: 18px;
+	}
+
+	.heading h2:after {
+		bottom: -31px;
+	}
+
+	.service-item {
+		text-align: center;
+		padding-bottom: 35px;
+	}
+
+	.service-text h5 {
+		padding-top: 13px;
+	}
+
+	.feed-text {
+		padding-left: 0;
+	}
+
+	.feed-text p {
+		font-size: 18px;
+		line-height: 30px;
+		padding-top: 20px;
+	}
+
+	#team {
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+
+	.team-info h4 {
+		margin-top: 28px;
+	}
+
+	#footer {
+		padding-bottom: 25px;
+		padding-top: 35px;
+		margin-top: 50px;
+	}
+
+	.footer-item h5 {
+		padding-bottom: 16px;
+	}
+
+	.footer-item h5 a {
+		padding: 0 5px;
+	}
+
+	.field {
+		width: 300px;
+	}
+
+	.field button {
+		padding: 15px 18px;
+		width: 140px;
+	}
+
+	.footer-item p {
+		margin-bottom: 0;
+	}
+
+	.footer-item h3 {
+		padding-bottom: 13px;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.footer-item img {
+		padding-bottom: 15px;
+	}
+
+	.blogs-item {
+		text-align: center;
+	}
+
+	.blogs-info h4 {
+		line-height: 16px;
+		padding-top: 0;
+	}
+
+	.col-4 {
+		padding-right: 0;
+
+	}
+
+	.feed-position .left,
+	.right {
+
+		display: none !important;
+	}
+
+	/*
+	.col-4{
+		padding-left: 0;
+	}
+*/
+}
+
+/*==================extra small media css end  here===============*/
+/*====================small media css start  here===============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar-toggler i {
+		color: #ddd;
+		font-size: 24px;
+	}
+
+	.navbar {
+		padding: 10px 1rem;
+	}
+
+	.navbar-nav {
+		background: #fd6462;
+	}
+
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-md .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.banner-text h1 {
+		font-size: 80px;
+	}
+
+	.banner-text h3 {
+		font-size: 49px;
+	}
+
+	#banner {
+		padding-top: 165px;
+		padding-bottom: 123px;
+	}
+
+	#about {
+		padding-top: 48px;
+		padding-bottom: 50px;
+	}
+
+	.heading {
+		padding-bottom: 55px;
+	}
+
+	.heading p {
+		padding-top: 63px;
+	}
+
+	.about-img {
+		margin-bottom: 25px;
+	}
+
+	#counter {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+
+	#service {
+		padding-top: 55px;
+	}
+
+	.service-item {
+		padding-bottom: 50px;
+	}
+
+	#service .heading {
+		padding-bottom: 88px;
+	}
+
+	.feed-text p {
+		font-size: 18px;
+	}
+
+	.feed-icon i {
+		width: 124px;
+		font-size: 55px !important;
+	}
+
+	#feedback {
+		padding-top: 15px;
+		padding-bottom: 45px;
+	}
+
+	#team {
+		padding-bottom: 50px;
+	}
+
+	#team .heading {
+		padding-bottom: 25px;
+	}
+
+	#portfolio .heading {
+		padding-bottom: 28px;
+	}
+
+	#footer {
+		padding-top: 55px;
+		padding-bottom: 0;
+		margin-top: 0;
+	}
+
+	.footer-item h3 {
+		padding-bottom: 8px;
+		padding-top: 15px;
+	}
+
+	.footer-item img {
+		padding-bottom: 10px;
+	}
+
+	.blogs-info h4 {
+		margin-left: 0;
+	}
+
+	.blogs-info p {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+	.blogs-item {
+		padding-bottom: 30px;
+	}
+
+	.feed-position .left,
+	.right {
+
+		display: none !important;
+	}
+}
+
+/*====================small media css end  here===============*/
+/*====================medium device media css end  here===============*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-expand-md .navbar-nav .nav-item {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+.feed-position .left {
+	left: -11px;
+}
+	.feed-position .right {
+	right: -11px;
+}
+	.banner-text h1 {
+		font-size: 120px;
+	}
+
+	#about {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#about .heading {
+		padding-bottom: 50px;
+	}
+
+	.service-item {
+		padding-bottom: 50px;
+	}
+
+	#service {
+		padding-top: 60px;
+	}
+
+	.feed-text p {
+		font-size: 20px;
+	}
+
+	#team {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+
+	#team .heading {
+		padding-bottom: 55px;
+	}
+
+	.team-overly i {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 23px;
+
+	}
+
+	#portfolio .heading {
+		padding-bottom: 54px;
+	}
+
+	#footer {
+		padding-top: 55px;
+		padding-bottom: 0;
+		margin-top: 0;
+	}
+
+	.footer-item h3 {
+		padding-bottom: 10px;
+		padding-top: 20px;
+	}
+
+	.footer-item img {
+		padding-bottom: 10px;
+	}
+
+	.blogs-info h4 {
+		margin-left: 0;
+		padding-top: 0;
+	}
+
+	.blogs-info p {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+	.blogs-item {
+		padding-bottom: 20px;
+	}
+
+/*
+	.feed-position .left,
+	.right {
+
+		display: none !important;
+	}
+*/
+}
+
+/*------------=================== large-device media start here=================== ------------*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.banner-text h1 {
+		font-size: 120px;
+	}
+
+	#counter .col-md-4 {
+		max-width: 20%;
+	}
+
+	#counter .col-md-6 {
+		max-width: 20%;
+	}
+}
+
+/*------------=================== large-device media end here=================== ------------*/
+/*====================large then up device media css start  here===============*/
+@media(min-width:1200) {
+	#counter .col-md-4 {
+		max-width: 20%;
+	}
+
+	#counter .col-md-6 {
+		max-width: 20%;
+	}
+.feed-position .left {
+	left: -25px;
+}
+	.feed-position .right {
+	right: -25px;
+}
+}
+
+/*====================large then up device media css end  here===============*/

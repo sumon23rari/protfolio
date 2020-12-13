@@ -1,0 +1,628 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+/* ====================================== navbar  section start here    ====================================== */
+.btp{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #fd6462;
+	line-height: 40px;
+	color: #ffffff;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+	z-index: 9999;
+	display: none;
+	cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	position: relative;
+	transition: all linear .3s;
+}
+
+.navbar {
+	padding: 20px 1rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	transition: all linear .4s;
+}
+/* animation name start here  ===*/
+.navbar-bg{
+	background: #fd6462;
+	animation: bg 2s;
+}
+@keyframes bg{
+	from{
+	top: -100px	
+	}
+	to{
+	top:0	
+	}
+	
+}
+/* animation name start here  ===*/
+.navbar-expand-md .navbar-nav .nav-item {
+	padding-right: 27px;
+	padding-left: 27px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+	color: #fce38a;
+}
+.navbar-expand-md .navbar-nav .nav-link.active{
+color: #fce38a;	
+}
+.navbar-expand-md .navbar-nav .nav-link:after {
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 0;
+	bottom: 0;
+	left: 0;
+	background: #fce38a;
+	opacity: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover:after {
+	width: 100%;
+	transition: .5s;
+	opacity: 1;
+}
+.navbar-expand-md .navbar-nav .nav-link.active:after{
+width: 100%;
+	transition: .5s;
+	opacity: 1;	
+}
+.navbar-expand-md .navbar-nav .nav-link.active:focus{
+	color: #fff;
+}
+/* ====================================== navbar  section end   here    ====================================== */
+/* ======================================  banner  section start here    ====================================== */
+#banner {
+	background: url(../image/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 235px;
+	padding-bottom: 227px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#banner:after {
+	position: absolute;
+	content: "";
+	background-image: linear-gradient(#f38181, #fce38a);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.9;
+}
+
+.banner-text {
+	position: relative;
+	z-index: 999;
+}
+
+.banner-text h3 {
+	font-family: 'Kaushan Script';
+	font-weight: 300;
+	font-size: 72px;
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+.banner-text h1 {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 150px;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 35px;
+}
+
+.banner-text h1:before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	width: 60px;
+	height: 3px;
+	background: #ffffff;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.banner-text h5 {
+	padding-top: 50px;
+}
+
+.banner-text a {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 12px 30px;
+	border: 3px solid #fff;
+	text-transform: uppercase;
+	transition: all linear .3s;
+}
+
+.banner-text a:hover {
+	background: #fff;
+	color: orange;
+}
+
+/* ======================================  banner  section end   here    ====================================== */
+/* ======================================   about section start here    ====================================== */
+#about {
+	padding-top: 92px;
+	padding-bottom: 100px;
+	background: #ffffff;
+}
+
+.heading h3 {
+	font-family: 'Kaushan Script';
+	font-weight: 600;
+	font-size: 24px;
+	color: #333333;
+	font-style: italic;
+	text-transform: capitalize;
+	padding-bottom: 4px;
+}
+
+.heading h2 {
+	font-family: 'Montserrat';
+	font-size: 30px;
+	color: #333333;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.heading h2:after {
+	position: absolute;
+	content: "";
+	bottom: -41px;
+	width: 60px;
+	height: 3px;
+	background: #f38181;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.heading {
+	padding-bottom: 105px;
+}
+
+.heading p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: #999999;
+	font-weight: 400;
+	padding-top: 93px;
+}
+
+/*==============  about img div start here==============  */
+.about-img {
+	position: relative;
+}
+
+.overly {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 0;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(#f38181, #fce38a);
+	opacity: 0;
+}
+
+.img-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%, );
+}
+
+.img-text i {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.img-text h5 {
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.about-img:hover .overly {
+	opacity: 1;
+	transition: all linear .6s;
+	width: 100%;
+}
+
+/*==============  about img div end here==============  */
+/* ======================================  about  section end   here    ====================================== */
+/* ======================================  counter section start here    ====================================== */
+#counter {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background: #95e1d3;
+}
+
+.counter-item h4 {
+	font-family: 'Montserrat';
+	font-size: 72px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.counter-item h5 {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+/* ======================================  counter section end   here    ====================================== */
+/* ======================================   service section start here    ====================================== */
+#service {
+	padding-top: 110px;
+	background: #ffffff;
+}
+
+.service-item {
+	padding-bottom: 100px;
+}
+
+.service-icon i {
+	font-size: 30px;
+	color: #96e1d3;
+}
+
+.service-text h5 {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Montserrat';
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.service-text p {
+	font-family: 'Roboto';
+	font-size: 15px;
+	color: #999999;
+	font-weight: 400;
+	line-height: 24px;
+
+}
+
+/* ======================================   service section end   here    ====================================== */
+/* ======================================  feedback  section start here  ====================================== */
+#feedback {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #f8f8f8;
+}
+.feed-text{
+	padding-left: 45px;
+}
+.feed-icon i {
+	width: 144px;
+	height: 144px;
+	border: 3px solid #95e1d3;
+	line-height: 144px;
+	font-size: 60px!important;
+	color: #95e1d3!important;
+}
+
+.feed-text p{
+	font-family: 'Roboto';
+	font-size: 24px;
+	color: #999999;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 36px;
+}
+.feed-text h4{
+font-family: 'Kaushan Script';
+	font-weight: 400;
+	font-size: 24px;
+	color: #333333;	
+	padding-left: 72px;
+	position: relative;
+}
+.feed-text h4:after{
+	position: absolute;
+	content: "";
+	width: 60px;
+	height: 3px;
+	background: #f38181;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.feed-position{
+	position: relative;
+}
+.feed-position i{
+	font-size: 24px;
+	color: #cbc4c4;
+}
+.feed-position .left{
+	position: absolute;
+	left: -75px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.feed-position .right{
+	position: absolute;
+	right: -75px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/* ======================================   feedback  section start here  = ==================================== */
+/* ======================================  team section start here    ====================================== */
+#team{
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.team-img{
+	position: relative;
+}
+.team-overly{
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 100%;
+	width: 0;
+	top: 0;
+	background-image: linear-gradient(#f38181, #fce38a);
+	opacity: 0;
+	transition: all linear .5s;
+}
+.team-img:hover .team-overly{
+	opacity: 0.9;
+	width: 100%;
+}
+.team-overly i{
+	position: relative;
+}
+.team-overly i{
+	top: 50%;
+	transform: translateY(-50%);
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	background: #fce38a;
+	font-size: 26px;
+	color: #f38181;
+}
+.team-overly i:hover{
+	background: #f38181;
+	color: #ffffff;
+}
+.team-info h4{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	margin-top: 38px;
+	font-size:14px;
+	text-transform: uppercase;
+	color: #333333;
+}
+.team-info h5{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-style: italic;
+	font-size: 15px;
+	color: #999999;
+	text-transform: uppercase;
+}
+/* ======================================   team section end   here    ====================================== */
+/* ======================================   portfolio section start here    ====================================== */
+#portfolio{
+	background: #ffffff;
+}
+.portfolio-item{
+	position: relative;
+}
+.portfolio-overly{
+position: absolute;
+	height: 100%;
+	width:0;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(#f38181, #fce38a);
+	opacity: 0;
+		
+}
+.portfolio-item:hover .portfolio-overly{
+		opacity: 0.9;
+	width: 100%;
+	transition: all linear .5s;
+}
+.portfolio-txt{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.portfolio-txt i{
+	 font-size: 15px;
+    color: #ffffff;
+    padding: 3px;
+    border: 1px solid #fff;
+	
+}
+.portfolio-txt h5{
+font-family: 'Montserrat';
+	font-weight: 400;
+	font-size:14px;
+	margin-top: 17px;
+	text-transform: uppercase;
+	color: #ffffff;	
+}
+.portfolio-txt p{
+		font-family: 'Roboto';
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-style: italic;
+	
+}
+/* ===================================  portfolio  section end   here    =================================== */
+/* ===================================  footer  section start  here    =================================== */
+#footer{
+	padding-top:75px;
+	padding-bottom: 70px;
+	margin-top: 100px;
+	background: #f8f8f8;
+}
+.footer-item img{
+	padding-bottom: 40px;
+}
+.footer-item p{
+	font-family: 'Roboto';
+	font-size: 15px;
+	color: #999999;
+	font-weight: 400;
+}
+.footer-item span{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #333333;
+}
+.footer-item h6{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-transform: capitalize;
+	font-size: 15px;
+	color: #333333;	
+	padding-top: 25px;
+}
+.vv{
+	background: #e5e5e5;
+}
+.footer-item h5{
+font-family: 'Roboto';
+	font-size: 15px;
+	color: #999999;
+	font-style: italic;
+	font-weight: 300;
+	padding-bottom: 34px;
+	
+}	
+.footer-item h5 a{
+	color: #95e1d3;
+	font-family: 'Roboto';
+	font-size: 16px;
+	padding: 0 9px;
+}
+.field{
+	width: 380px;
+	position: relative;
+}
+.field input{
+	width: 100%;
+	padding: 15px 13px;
+	border: 1px solid #e7e7e7;
+}
+.field button{
+	padding: 15px 35px;
+	background: #95e1d3;
+	font-family: 'Montserrat';
+	font-weight: 700;
+/*	font-size: 14px;*/
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 0;
+}
+.footer-item h3{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	color: #333333;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.blogs-info h4{
+	font-family: 'Montserrat';
+	font-weight: 400;
+		font-size: 12px;
+	color: #333333;
+	text-transform: uppercase;
+	margin-left: 20px;
+	line-height: 18px;
+	padding-top: 10px;
+}
+.blogs-info p{
+	margin-top: -8px;
+	font-family: 'Roboto';
+	font-size: 13px;
+	font-style: italic;
+	color: #999999;
+	font-weight: 300;
+	margin-left: 20px;
+}
+.inst-img{
+	padding-left: 3px;
+	padding-bottom: 3px;
+}
+.more-item a{
+	padding-top: 8px;
+	font-family: 'Roboto';
+	font-size: 13px;
+	font-style: italic;
+	color: #333333;
+	font-weight: 300;	
+}
+.footer-txt p{
+	   font-family: 'Montserrat';
+    font-size:14px;
+    color: #333;
+    font-weight:400;  
+}
+.footer-txt p span{
+	   color: #f38181;
+}
+#footer-end{
+	background: #f8f8f8;
+}
+/* ===================================   footer   section end   here    =================================== */
